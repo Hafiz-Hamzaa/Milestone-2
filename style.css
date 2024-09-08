@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: rgb(5, 56, 56);
+    text-transform: uppercase;
+}
+.resume_container{
+    margin-top: 5px;
+    width: 700px;
+    height: 550px;
+    margin: 10px auto;
+    border: 3px solid rgb(8, 128, 128);
+    border-radius: 10px;
+    background-color: rgb(241, 243, 245);
+}
+@media screen and (max-width : 725px) {
+    .resume_container{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 625px) {
+    .resume_container{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 525px) {
+    .resume_container{
+        width: 400px;
+    }
+    .info_details{
+        font-size: 13px;
+    }
+    #email_id{
+        font-size: 12px;
+    }
+    #current_study{
+        font-size: 14px;
+    }
+}
+.image_container{
+    display: flex;
+    justify-content: center;
+}
+.image_class{
+    width: 80px;
+    height: 80px;
+    background-image: url(Hamza_image.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid aqua;
+}
+.info_heading{
+    text-align: center;
+}
+.information_container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.info_details{
+    margin-right: 5px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border: 2px solid  rgb(96, 221, 221);
+    border-radius: 10px;
+}
+.edu_heading{
+    margin-top: 10px;
+    text-align: center;
+}
+.educat_sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+.details{
+    margin-top: 15px;
+    margin-right: 5px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border: 2px solid  rgb(96, 221, 221);
+    border-radius: 10px;
+}
+.skill_heading{
+    margin-top: 10px;
+    text-align: center;
+}
+.skill_sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+.skills{
+    margin-top: 15px;
+    margin-right: 5px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border: 2px solid  rgb(96, 221, 221);
+    border-radius: 10px;
+}
+
+.work_heading{
+    margin-top: 10px;
+    text-align: center;
+}
+.experience_container{
+    display: flex;
+    justify-content: center;
+}
+.work_exp{
+    text-align: center;
+    margin-top: 3px;
+    width: 600px;
+    height: 140px;
+    border: 2px solid rgb(96, 221, 221);
+    border-radius: 10px;
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-radius: 18px;
+    border: 3px solid rgb(5, 56, 56);
+    width: 180px;
+    height: 30px;
+    margin-top: 16px;
+    background-color: rgb(16, 29, 29);
+    color: white;
+    font-size: 20px;
+}
